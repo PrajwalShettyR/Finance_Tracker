@@ -1,0 +1,136 @@
+/* PAGE */
+
+.income-page{
+  padding:30px 40px;
+  background:linear-gradient(135deg,#eef3ff,#f9fbff);
+  min-height:100vh;
+}
+
+.income-layout{
+  display:flex;
+  gap:30px;
+  margin-top:20px;
+}
+
+.Add-income-heading{
+  color:#034a01;
+}
+
+
+/* TABLE */
+
+.income-table-box{
+  flex:2;
+  background:#f7f5f0;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  border:1px solid #034a01;
+}
+
+.income-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.income-table th{
+  background:#f7f5f0;
+  color:#087420;
+  padding:12px;
+  text-align:left;
+}
+
+.income-table td{
+  padding:12px;
+  border-bottom:1px solid #eee;
+}
+
+.income-table tr:hover{
+  background:#f9fafb;
+}
+
+.no-data{
+  text-align:center;
+  color:#888;
+}
+
+
+/* FORM */
+
+.income-form-box{
+  flex:1;
+  background:#f7f5f0;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  border:1px solid #034a01;
+}
+
+.income-form-box form{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.income-form-box input,
+.income-form-box select,
+.income-form-box textarea{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  outline:none;
+}
+
+.income-form-box input:focus,
+.income-form-box select:focus,
+.income-form-box textarea:focus{
+  border:1px solid #6c7cf5;
+}
+
+
+/* SAVE BUTTON */
+
+.income-form-box .save-btn{
+  background:#a7f4c4;
+  color:#033a0a;
+  border:none;
+  padding:10px;
+  border-radius:6px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.income-form-box .save-btn:hover{
+  background:#85fbb0;
+}
+
+
+/* ACTION BUTTONS */
+
+.income-table .edit-btn{
+  background:#fadaa5;
+  border:none;
+  padding:6px 12px;
+  border-radius:5px;
+  color:#ec8e09;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.income-table .edit-btn:hover{
+  background:#f7cb80;
+}
+
+.income-table .delete-btn{
+  background:#f5c0c0;
+  border:none;
+  padding:6px 12px;
+  border-radius:5px;
+  color:#f80303;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.income-table .delete-btn:hover{
+  background:#f78686;
+}

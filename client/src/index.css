@@ -1,0 +1,95 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg,#eef2f7,#d9e4f5);
+  min-height:100vh;
+}
+
+/* container spacing */
+.container{
+  margin-top:30px;
+}
+
+/* CARD STYLE */
+.card{
+  border:none;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+}
+
+/* BUTTONS */
+
+.btn{
+  border-radius:8px;
+  font-weight:500;
+}
+
+/* TABLE */
+
+.table{
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.table thead{
+  background:#212529;
+  color:white;
+}
+
+/* FORM */
+
+input, select, textarea{
+  border-radius:8px !important;
+  border:1px solid #dcdcdc !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+  box-shadow:0 0 0 2px rgba(0,123,255,0.15) !important;
+}
+
+/* HEADINGS */
+
+h2{
+  font-weight:600;
+  color:#333;
+}
+
+h4{
+  font-weight:500;
+}
+
+/* DASHBOARD SUMMARY CARDS */
+
+.summary-card{
+  padding:20px;
+  border-radius:12px;
+  color:white;
+  text-align:center;
+}
+
+.income-card{
+  background:linear-gradient(45deg,#00b09b,#96c93d);
+}
+
+.expense-card{
+  background:linear-gradient(45deg,#ff416c,#ff4b2b);
+}
+
+.balance-card{
+  background:linear-gradient(45deg,#3a7bd5,#3a6073);
+}

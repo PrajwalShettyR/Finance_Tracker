@@ -1,0 +1,25 @@
+/* CENTER LOGIN + REGISTER */
+
+.auth-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.auth-card{
+  width:380px;
+  padding:30px;
+  background:white;
+  border-radius:12px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* CHART SECTION */
+
+.chart-box{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+}

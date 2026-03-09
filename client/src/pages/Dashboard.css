@@ -1,0 +1,179 @@
+/* PAGE BACKGROUND */
+
+.dashboard{
+  padding:40px;
+  min-height:100vh;
+  background:linear-gradient(135deg,#eef3ff,#f9fbff);
+  font-family:"Segoe UI",Roboto,sans-serif;
+}
+
+/* TITLE */
+
+.dashboard-title{
+  font-size:32px;
+  font-weight:600;
+  color:#20254e;
+  margin-bottom:20px;
+}
+
+/* MONTH SELECTOR */
+
+.month-selector{
+  padding:12px 16px;
+  border-radius:12px;
+  border:1px solid #20254e !important;
+  background:white;
+  box-shadow:0 6px 16px rgba(0,0,0,0.08);
+  font-size:14px;
+  margin-bottom:35px;
+  outline:none;
+}
+
+/* SUMMARY CARDS */
+
+.summary-cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+  margin-bottom:40px;
+}
+
+.card{
+  padding:28px;
+  border-radius:16px;
+  color:#333;
+  text-align:center;
+  box-shadow:0 10px 22px rgba(0,0,0,0.08);
+  transition:0.3s ease;
+  border:1px solid #20254e !important;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+/* CARD COLORS */
+
+.income-card{
+  background:linear-gradient(135deg,#c7f9cc,#e8fff1);
+}
+
+.expense-card{
+  background:linear-gradient(135deg,#ffd6e0,#fff0f5);
+}
+
+.balance-card{
+  background:linear-gradient(135deg,#dbf9ff,#eefcff);
+}
+
+/* CARD TEXT */
+
+.card h4{
+  margin-bottom:10px;
+  font-size:16px;
+}
+
+.card p{
+  font-size:26px;
+  font-weight:600;
+}
+
+/* TABLE CONTAINER */
+
+.table-container{
+  background:#f7f5f0;
+  padding:28px;
+  border-radius:16px;
+  box-shadow:0 10px 22px rgba(0,0,0,0.08);
+  margin-bottom:40px;
+  border:1px solid #20254e !important;
+}
+
+/* TABLE */
+
+.transaction-table{
+  width:100%;
+  border-collapse:collapse;
+  background-color: #f7f5f0;
+}
+
+.transaction-table th{
+  text-align:center;
+  padding:14px;
+  font-size:20px;
+  color:#20254e;
+  border-bottom:1px solid #eee;
+}
+
+.transaction-table td{
+  text-align: center;
+  padding:14px;
+  border-bottom:1px solid #f2f2f2;
+  font-size:16px;
+}
+
+.transaction-table tr:hover{
+  background:#fafcff;
+}
+
+/* TYPE COLORS */
+
+.income-text{
+  color:#52b788;
+  font-weight:500;
+}
+
+.expense-text{
+  color:#e76f8a;
+  font-weight:500;
+}
+
+/* CHART AREA */
+
+.charts{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  gap:30px;
+}
+
+/* CHART CARD */
+
+.chart-box{
+  background:rgb(238, 247, 248);
+  padding:28px;
+  border-radius:16px;
+  box-shadow:0 10px 22px rgba(0,0,0,0.08);
+  border:1px solid #20254e !important;
+}
+
+.chart-box h4{
+  margin-bottom:15px;
+  color:#333;
+}
+
+/* CHART SIZE */
+
+.chart{
+  height:300px;
+}
+
+/* SOFTEN CHART COLORS */
+
+.chart canvas{
+  filter:saturate(0.85);
+}
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+.dashboard{
+  padding:20px;
+}
+
+.chart{
+  height:250px;
+}
+
+}
+

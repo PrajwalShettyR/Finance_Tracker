@@ -1,0 +1,143 @@
+/* PAGE */
+
+.budget-page{
+  padding:30px 40px;
+  background:linear-gradient(135deg,#eef3ff,#f9fbff);
+  min-height:100vh;
+}
+
+.budget-title{
+  font-size:30px;
+  font-weight:600;
+  margin-bottom:20px;
+  color: #8b4b02;
+}
+
+.budget-layout{
+  display:flex;
+  gap:30px;
+}
+
+
+/* TABLE */
+
+.budget-table-box{
+  flex:2;
+  background:#f7f5f0;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  border:1px solid #8b4b02;
+}
+
+.budget-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.budget-table th{
+  background:#f7f5f0;
+  color:#8b4b02;
+  padding:12px;
+  text-align:left;
+}
+
+.budget-table td{
+  padding:12px;
+  border-bottom:1px solid #eee;
+}
+
+.budget-table tr:hover{
+  background:#f9fafb;
+}
+
+.no-data{
+  text-align:center;
+  color:#888;
+}
+
+
+/* FORM */
+
+.budget-form-box{
+  flex:1;
+  background:#f7f5f0;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  border:1px solid #8b4b02;
+}
+
+.budget-form-box form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.budget-form-box input,
+.budget-form-box select{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ddd;
+  outline:none;
+}
+
+.budget-form-box input:focus,
+.budget-form-box select:focus{
+  border:1px solid #2563eb;
+}
+
+
+/* SAVE BUTTON */
+
+.budget-form-box .save-budget-btn{
+  background:#6a95f0;
+  color:#011d5c;
+  border:none;
+  padding:10px;
+  border-radius:6px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.budget-form-box .save-budget-btn:hover{
+  background:#4775f4;
+}
+
+
+/* ACTION BUTTONS */
+
+.budget-table .edit-btn{
+  background:#fadaa5;
+  border:none;
+  padding:6px 12px;
+  border-radius:5px;
+  color:#ec8e09;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.budget-table .edit-btn:hover{
+  background:#f8c874;
+}
+
+.budget-table .delete-btn{
+  background:#f5c0c0;
+  border:none;
+  padding:6px 12px;
+  border-radius:5px;
+  color:#f80303;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.budget-table .delete-btn:hover{
+  background:#f59a9a;
+}
+
+
+/* BUTTON SPACING */
+
+.budget-table button{
+  margin-right:6px;
+}

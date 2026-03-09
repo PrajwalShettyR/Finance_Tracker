@@ -1,0 +1,101 @@
+/* NAVBAR CONTAINER */
+
+.navbar-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 40px;
+  background:linear-gradient(135deg,#1f2937,#111827);
+  color:white;
+  box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+
+.navbar-logo{
+  font-size:20px;
+  font-weight:600;
+  text-decoration:none;
+  color:white;
+  letter-spacing:0.5px;
+}
+
+/* BUTTON AREA */
+
+.navbar-links{
+  display:flex;
+  gap:10px;
+}
+
+/* BASE BUTTON */
+
+.nav-btn{
+  padding:8px 14px;
+  border:none;
+  border-radius:8px;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:500;
+  cursor:pointer;
+  transition:0.25s;
+  color:rgb(18, 2, 2);
+}
+
+/* INCOME */
+
+.income-btn{
+  background:#a3f3c0;
+}
+ 
+.income-btn:hover{
+  background:#16a34a;
+}
+
+/* EXPENSE */
+.dashboard-btn{
+  background:#828ff1;
+}
+
+.dashboard-btn:hover{
+  background:#4e61f0;
+}
+
+.expense-btn{
+  background:#ef9494;
+}
+
+.expense-btn:hover{
+  background:#dc2626;
+}
+
+/* BUDGET */
+
+.budget-btn{
+  background:#f7c97b;
+}
+
+.budget-btn:hover{
+  background:#d97706;
+}
+
+/* LOGOUT */
+
+.logout-btn{
+  background:#e5e7eb;
+  color:#111;
+}
+
+.logout-btn:hover{
+  background:#d1d5db;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  .navbar-container{
+    flex-direction:column;
+    gap:10px;
+  }
+
+}
