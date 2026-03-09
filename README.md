@@ -216,7 +216,7 @@ npm start
 
 ## Author
 
-Prajwal Shetty
+Created by PrajwalShettyR
 
 ## Support
 
